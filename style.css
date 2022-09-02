@@ -35,6 +35,7 @@ body {
 }
 .menu-container img {
   width: 120px;
+  margin-left: 100px;
 }
 
 .menu {
@@ -45,16 +46,13 @@ body {
   background-size: 300px;
   display: flex;
   flex-direction: column;
-  padding-top: 100px;
+  padding-top: 90px;
 }
-
-.menu a {
+.menu img {
+  width: auto;
+  height: 25px;
   margin-bottom: 30px;
-  font-family: "Gorditas";
-  text-decoration: none;
-  color: black;
-  font-size: 20px;
-  transform: translate(50px);
+  transform: translate(-20px);
 }
 
 .window {
@@ -169,12 +167,16 @@ body {
   body {
     height: 100vh;
   }
+  .menu-container img {
+    margin-left: 70px;
+  }
   .menu {
     width: 250px;
     background-size: 250px;
+    padding-top: 70px;
   }
-  .menu a {
-    font-size: 15px;
+  .menu img {
+    margin-bottom: 20px;
   }
   .window {
     width: 50%;
@@ -193,6 +195,6 @@ body {
 }
 @media (max-width: 945px) and (max-width: 730px) {
   .menu-container {
-    margin-left: -85px;
+    margin-left: -65px;
   }
 }/*# sourceMappingURL=style.css.map */
