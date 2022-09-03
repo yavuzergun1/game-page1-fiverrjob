@@ -37,11 +37,11 @@ body {
   }
 }
 .menu {
-  height: 550px;
+  height: 500px;
   width: 350px;
   background-repeat: no-repeat;
   background-image: url("/assets/menu-img.png");
-  background-size: 300px;
+  background-size: 280px;
   display: flex;
   flex-direction: column;
   padding-top: 90px;
@@ -58,7 +58,7 @@ body {
 
 .window {
   width: 550px;
-  height: 520px;
+  height: 470px;
   margin-top: 90px;
   background-color: white;
   border-radius: 20px;
@@ -80,6 +80,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   padding-top: 15px;
+  margin-top: -15px;
   img {
     width: 95%;
   }
@@ -97,7 +98,7 @@ body {
 .left-up {
   width: 85%;
   margin-top: 30px;
-  background-image: url("./assets/Rectangle\ 18.png");
+  background-image: url("./assets/Rectangle\ 19.png");
   background-size: contain;
   border-radius: 15px;
 }
@@ -150,7 +151,8 @@ body {
   .window {
     width: 65%;
     height: 430px;
-    transform: translate(50px, -45px);
+    transform: translate(50px, -20px);
+    padding-top: 35px;
     justify-content: space-around;
   }
   .left-container {
