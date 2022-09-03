@@ -140,9 +140,13 @@ body {
   .menu-container img {
     margin-left: 70px;
   }
+  .logo {
+    transform: translate(50px);
+  }
   .menu {
     width: 250px;
     background-size: 250px;
+    margin-left: 50px;
     padding-top: 70px;
   }
   .menu img {
