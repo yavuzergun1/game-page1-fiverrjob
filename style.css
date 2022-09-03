@@ -102,7 +102,7 @@ body {
 .left-up, .right-up {
   width: 85%;
   margin-top: 30px;
-  background-image: url("./assets/Rectangle 19.png");
+  background-color: #fff;
   background-size: contain;
   border-radius: 15px;
 }
