@@ -11,7 +11,7 @@
 }
 
 body {
-  height: 100vh;
+  height: auto;
   min-width: 640px;
   background-image: url("/assets/bg.png");
   padding-top: 30px;
@@ -131,7 +131,7 @@ body {
 }
 @media (max-width: 945px) {
   body {
-    height: 100vh;
+    height: auto;
   }
   .menu-container {
     margin-left: -105px;
@@ -186,17 +186,29 @@ body {
     .menu-container {
       margin-left: -155px;
     }
+    .menu{
+      width: 200px;
+      background-size: 200px;
+      img{
+        margin-bottom: 10px;
+        margin-left: 60px;
+      }
+    }
     .window {
       width: 55%;
       margin-right: -45px;
+      margin-top: 0px;
+      height: 340px;
     }
     .left-container{
       width: 160px;
+      height: 300px;
       button{
-        transform: translate(30px, 70px);
+        transform: translate(30px, 26px);
       }
     }
     .text{
+      margin-top: 8px;
     p{
       font-size: .6rem;
     }
