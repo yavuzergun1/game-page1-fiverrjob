@@ -186,6 +186,7 @@ body {
 @media (max-width: 945px) and (max-width: 730px) {
   .menu-container {
     margin-left: -155px;
+    height: 450px;
   }
   .menu {
     width: 200px;
@@ -198,7 +199,7 @@ body {
   .window {
     width: 55%;
     margin-right: -45px;
-    margin-top: 0px;
+    margin-top: 140px;
     height: 340px;
   }
   .left-container, .right-container {
@@ -213,5 +214,8 @@ body {
   }
   .text p {
     font-size: 0.6rem;
+  }
+  .logo {
+    transform: translate(25px);
   }
 }/*# sourceMappingURL=style.css.map */
