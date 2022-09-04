@@ -66,6 +66,21 @@ body {
   display: flex;
   justify-content: space-around;
 }
+.ellipse{
+  width: 140px;
+  height: 140px;
+  margin: 0px -50px;
+  transform: translate(0px, 90px);
+  background-image: url(./assets/Ellipse\ 1.png);
+  background-size: 130px;
+  background-repeat: no-repeat;
+  display: flex;
+  img{
+    width: 130px;
+    height: 100px;
+    transform: translate(0px, 40px);
+  }
+}
 .first {
   display: flex;
 }
@@ -156,7 +171,12 @@ body {
     height: 430px;
     transform: translate(50px, -20px);
     padding-top: 35px;
-    justify-content: space-around;
+    justify-content: center;
+  }
+  .ellipse{
+    width: 140px;
+  height: 140px;
+  transform: translate(0px, 60px);
   }
   .left-container {
     background-size: 100%;
@@ -199,6 +219,17 @@ body {
       margin-right: -45px;
       margin-top: 140px;
       height: 340px;
+    }
+    .ellipse{
+      width: 120px;
+    height: 120px;
+    transform: translate(20px, 35px);
+    background-size: 80px;
+    img{
+      width: 70px;
+      height: 60px;
+      transform: translate(6px, 30px);
+    }
     }
     .left-container{
       width: 160px;
