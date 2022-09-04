@@ -60,21 +60,39 @@ body {
 
 .window {
   width: 550px;
-  height: 470px;
-  margin-top: 90px;
+  height: 480px;
+  margin-top: 110px;
   background-color: white;
   border-radius: 20px;
-  padding-top: 20px;
   font-family: "Gorditas";
   display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.window h3 {
+  text-align: center;
+  margin-top: 0px;
+}
+
+.window > p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin-top: -15px;
+  margin-left: 15px;
+}
+
+.blocks {
+  width: 100%;
+  display: flex;
   justify-content: space-around;
+  align-items: flex-start;
 }
 
 .ellipse {
   width: 140px;
   height: 140px;
   margin: 0px -80px;
-  transform: translate(0px, 90px);
+  transform: translate(0px, 80px);
   background-image: url(./assets/Ellipse\ 1.png);
   background-size: 130px;
   background-repeat: no-repeat;
@@ -94,13 +112,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
   width: 43%;
+  padding-top: 15px;
   background-image: url(./assets/Rectangle\ 16.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
-  padding-top: 15px;
-  margin-top: -15px;
+  background-position: top;
 }
 .left-container img, .right-container img {
   width: 95%;
@@ -112,12 +130,11 @@ body {
   color: wheat;
   border-radius: 10px;
   cursor: pointer;
-  transform: translate(60px, 20px);
+  transform: translate(60px, 10px);
 }
 
 .left-up, .right-up {
   width: 85%;
-  margin-top: 30px;
   background-color: #fff;
   background-size: contain;
   border-radius: 15px;
@@ -171,21 +188,32 @@ body {
   .window {
     width: 69%;
     height: 430px;
+    margin-top: 85px;
     transform: translate(50px, -20px);
     padding-top: 35px;
     justify-content: center;
   }
+  .window h3 {
+    margin-top: -30px;
+  }
   .ellipse {
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: 120px;
+    background-size: 110px;
     margin: 0px -50px;
-    transform: translate(0px, 60px);
+    transform: translate(0px, 50px);
+  }
+  .ellipse img {
+    transform: translate(-5px, 35px);
+  }
+  .blocks {
+    justify-content: center;
   }
   .left-container, .right-container {
     background-size: 100%;
     padding-top: 5px;
     width: 200px;
-    height: 400px;
+    height: 340px;
     background-size: cover;
     border-radius: 10px;
   }
@@ -201,7 +229,7 @@ body {
     transform: translate(45px, 0px);
   }
   .text {
-    margin-top: 55px;
+    margin-top: 15px;
     padding-top: 0px;
   }
 }
@@ -224,10 +252,20 @@ body {
     margin-top: 140px;
     height: 340px;
   }
+  .window h3 {
+    margin-top: -50px;
+  }
+  .window > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 0.8rem;
+    margin-top: -15px;
+    margin-left: 15px;
+  }
   .ellipse {
     width: 120px;
     height: 120px;
-    transform: translate(20px, 35px);
+    transform: translate(20px, 45px);
     background-size: 80px;
   }
   .ellipse img {
@@ -237,16 +275,22 @@ body {
   }
   .left-container, .right-container {
     width: 160px;
-    height: 300px;
+    height: 280px;
+    margin-top: -5px;
   }
   .left-container button, .right-container button {
-    transform: translate(30px, 26px);
+    transform: translate(30px, 6px);
   }
   .text {
     margin-top: 8px;
+    width: 90%;
+    height: 130px;
+    background-size: cover;
+    border-radius: 15px;
   }
   .text p {
     font-size: 0.6rem;
+    margin-left: -3px;
   }
   .logo {
     transform: translate(25px);
